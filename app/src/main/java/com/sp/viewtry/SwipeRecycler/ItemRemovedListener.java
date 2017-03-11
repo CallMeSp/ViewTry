@@ -1,4 +1,4 @@
-package com.sp.viewtry.SwipeRecycler;
+package com.sp.viewtry.swipeRecycler;
 
 /**
  * Created by Administrator on 2017/2/6.

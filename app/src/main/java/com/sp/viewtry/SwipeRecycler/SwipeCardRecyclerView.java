@@ -1,4 +1,4 @@
-package com.sp.viewtry.SwipeRecycler;
+package com.sp.viewtry.swipeRecycler;
 
 import android.animation.Animator;
 import android.animation.TimeInterpolator;

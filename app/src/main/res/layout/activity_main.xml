@@ -14,17 +14,17 @@
     tools:context="com.sp.viewtry.MainActivity"
     android:background="@color/colorAccent">
 
-    <com.sp.viewtry.CircleImageView.MyCirCleView
+    <com.sp.viewtry.circleImageView.MyCirCleView
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
         android:id="@+id/circleview"
         />
-    <com.sp.viewtry.SwipeRecycler.SwipeCardRecyclerView
+    <com.sp.viewtry.swipeRecycler.SwipeCardRecyclerView
         android:layout_gravity="center"
-        android:layout_width="150dp"
-        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:id="@+id/recyclerView">
-    </com.sp.viewtry.SwipeRecycler.SwipeCardRecyclerView>
+    </com.sp.viewtry.swipeRecycler.SwipeCardRecyclerView>
 </LinearLayout>
 

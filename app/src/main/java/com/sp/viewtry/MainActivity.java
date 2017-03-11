@@ -4,11 +4,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.bumptech.glide.Glide;
-import com.sp.viewtry.CircleImageView.MyCirCleView;
-import com.sp.viewtry.SwipeRecycler.ItemRemovedListener;
-import com.sp.viewtry.SwipeRecycler.MyAdapter;
-import com.sp.viewtry.SwipeRecycler.SwipeCardLayoutManager;
-import com.sp.viewtry.SwipeRecycler.SwipeCardRecyclerView;
+import com.sp.viewtry.circleImageView.MyCirCleView;
+import com.sp.viewtry.swipeRecycler.ItemRemovedListener;
+import com.sp.viewtry.swipeRecycler.MyAdapter;
+import com.sp.viewtry.swipeRecycler.SwipeCardLayoutManager;
+import com.sp.viewtry.swipeRecycler.SwipeCardRecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         Glide.with(this)
                 .load(R.mipmap.test)
                 .into(cirCleView);
+
         recyclerView.setLayoutManager(new SwipeCardLayoutManager());
         final List<String> list = new ArrayList<>();
         for (int i = 0; i < 10; i++) {

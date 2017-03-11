@@ -1,4 +1,4 @@
-package com.sp.viewtry.CircleImageView;
+package com.sp.viewtry.circleImageView;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -116,6 +116,7 @@ public class MyCirCleView extends ImageView {
         drawable.setBounds(0, 0, w, h);
         drawable.draw(canvas);
         return bitmap;
+
     }
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh)
